@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>golvada he 10 2023-24</name>
+	<StyleMap id="__managed_style_689C019E91332BD1EC88">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_79BDFF2A5D332BD1EC88</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_8DE467F478332BD1EC88</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_550D7CA50D332BD1EC88">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8772</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_490CBAF8C4332BD1EC88">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.25146</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_79BDFF2A5D332BD1EC88">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>1.62594</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_345C91A241332BD1EC88">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_490CBAF8C4332BD1EC88</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_550D7CA50D332BD1EC88</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_8DE467F478332BD1EC88">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.4389</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_19AFB589B7332BD1EC88">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>1.62594</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_234F72CC13332BD1EC88">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2.4389</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>00ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_065B29A536332BD1EC88">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_19AFB589B7332BD1EC88</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_234F72CC13332BD1EC88</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="07BC2552BA32C316F21E">
+		<name>kelava 25 he</name>
+		<description><![CDATA[<div><b>kelava irrigation he 25&nbsp;</b><br></div><div><b>Year 2022-23</b><br></div>]]></description>
+		<LookAt>
+			<longitude>73.19426839387742</longitude>
+			<latitude>24.01576379553443</latitude>
+			<altitude>280.5090231089874</altitude>
+			<heading>108.7976786328946</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3944.221455875086</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_065B29A536332BD1EC88</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.19791470947145,24.01977640858627,0 73.1951165609439,24.01754094149261,0 73.19552053670429,24.01738340683521,0 73.19480033400262,24.01523619312771,0 73.19463695073262,24.01440311871703,0 73.19454286010809,24.0139003560814,0 73.1942443392165,24.0126807914708,0 73.19423419447961,24.0126863557728,0 73.19653511275247,24.01252023885471,0 73.19648432210984,24.01217871972386,0 73.19764861281237,24.01199930187962,0 73.1981728693097,24.01433254741455,0 73.1986819814156,24.01611200638915,0 73.19959745133227,24.01895266153662,0 73.19791470947145,24.01977640858627,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="017E1C926F32C321384B">
+		<name>golvada AAR he 10</name>
+		<LookAt>
+			<longitude>73.26007898563958</longitude>
+			<latitude>23.94513383697879</latitude>
+			<altitude>344.9051226907054</altitude>
+			<heading>24.85025074686223</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00004100868316</gx:fovy>
+			<range>3032.777194715746</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_345C91A241332BD1EC88</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						73.26143019372174,23.94842389727315,0 73.26145455834377,23.94770292293428,0 73.26131618324339,23.9473036294548,0 73.26099697405525,23.94741357622605,0 73.2610401673458,23.94789796349275,0 73.26068359668923,23.9482500892016,0 73.25941243323736,23.9476350299706,0 73.25844454431609,23.94767814744992,0 73.25826068055234,23.94734588890073,0 73.26102266899632,23.94617370513348,0 73.26106568044432,23.94558146576293,0 73.263064354844,23.94489376963862,0 73.26345213597234,23.94893964512754,0 73.26215495742278,23.94956954455791,0 73.26143019372174,23.94842389727315,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0441639A5132C3256BE1">
+		<name>Golvada he 10</name>
+		<LookAt>
+			<longitude>73.26236246597014</longitude>
+			<latitude>23.9472863177475</latitude>
+			<altitude>348.0965902728801</altitude>
+			<heading>24.85117754611951</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.00004100868316</gx:fovy>
+			<range>3029.903914078313</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_689C019E91332BD1EC88</styleUrl>
+		<Point>
+			<coordinates>73.26236246597014,23.9472863177475,348.0965902728801</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
