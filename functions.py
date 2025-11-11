@@ -159,7 +159,7 @@ def daterange_dates_to_str(start_date, end_date):
 def daterange_str_to_year(daterange_str):
     start_date, _ = daterange_str.split("-")
     year = pd.to_datetime(start_date).year
-    return year
+    return str(year)
 
 
 def shape_3d_to_2d(shape):

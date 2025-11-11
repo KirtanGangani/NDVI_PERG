@@ -54,7 +54,7 @@ if file_url is None:
 
 if file_url is None:
     st.warning(
-        "Please provide a KML or GeoJSON URL as a query parameter, e.g., `https://sustainabilitylabiitgn-ndvi-perg.hf.space?file_url=<your_file_url>` or upload a file."
+        "Please provide a KML or GeoJSON URL as a query parameter, e.g., `https://ndvi-perg-973418916635.asia-south2.run.app/?file_url=<your_file_url>` or upload a file."
     )
     force_stop()
 
