@@ -26,22 +26,39 @@ def force_stop():
     show_credits()
     st.stop()
 
+GCP_PROJECT_ID = 'galvanic-ripsaw-477107-g1' 
+EE_INITIALIZED = False
 
 def one_time_setup():
-    credentials_path = os.path.expanduser("~/.config/earthengine/credentials")
-    if os.path.exists(credentials_path):
-        pass  # Earth Engine credentials already exist
-    elif "EE" in os.environ:  # write the credentials to the file
-        ee_credentials = os.environ.get("EE")
-        os.makedirs(os.path.dirname(credentials_path), exist_ok=True)
-        with open(credentials_path, "w") as f:
-            f.write(ee_credentials)
-    else:
-        raise ValueError(
-            f"Earth Engine credentials not found at {credentials_path} or in the environment variable 'EE'"
-        )
-    ee.Initialize()
+    global EE_INITIALIZED
+    
+    if EE_INITIALIZED:
+        return
 
+    print("--- Starting Earth Engine initialization (On-Demand) ---")
+
+    try:
+        ee.Initialize(project=GCP_PROJECT_ID)
+        EE_INITIALIZED = True
+        print("Earth Engine initialized successfully.")
+    except Exception as e:
+        print(f"EE Initialization FAILED: {e}")
+        raise
+
+# def one_time_setup():
+#     credentials_path = os.path.expanduser("~/.config/earthengine/credentials")
+#     if os.path.exists(credentials_path):
+#         pass  # Earth Engine credentials already exist
+#     elif "EE" in os.environ:  # write the credentials to the file
+#         ee_credentials = os.environ.get("EE")
+#         os.makedirs(os.path.dirname(credentials_path), exist_ok=True)
+#         with open(credentials_path, "w") as f:
+#             f.write(ee_credentials)
+#     else:
+#         raise ValueError(
+#             f"Earth Engine credentials not found at {credentials_path} or in the environment variable 'EE'"
+#         )
+#     ee.Initialize()
 
 def show_credits():
     # Add credits
